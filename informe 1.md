@@ -62,9 +62,45 @@ sudo apt update
 sudo apt install nodejs
 sudo apt install npm
 ```
+**Paso 2: Instalar Angular CLI globalmente**  
+Después de instalar Node.js y npm, usaré npm para instalar Angular CLI globalmente en mi sistema:
 
+```bash
+sudo npm install -g @angular/cli
+```
+**Paso 3: Crear un nuevo proyecto Angular**  
+Ahora, usaré el siguiente comando para crear un nuevo proyecto Angular. Se me preguntará si quiero configurar rutas y qué tipo de estilos quiero usar (CSS, SCSS, etc.).
+
+```bash
+ng new nombre-del-proyecto
+```
+**Paso 4: Navegar al directorio del proyecto**  
+Una vez que el proyecto se haya creado, entraré al directorio del proyecto con el siguiente comando:
+
+```bash
+cd nombre-del-proyecto
+```
+**Paso 5: Instalar dependencias (si no se instalaron automáticamente)**  
+En caso de que las dependencias no se hayan instalado automáticamente, debo ejecutar el siguiente comando para instalar todas las dependencias necesarias:
+
+```bash
+npm install
+```
+**Paso 6: Ejecutar el servidor de desarrollo**  
+Una vez que las dependencias estén instaladas, ejecutaré el servidor de desarrollo para que mi aplicación Angular sea accesible desde el navegador. Para ello, utilizo el siguiente comando:
+
+```bash
+ng serve
+```
+**Paso 7: Acceder a la aplicación en el navegador**  
+Finalmente, abriré el navegador y escribiré la siguiente URL para ver mi aplicación en funcionamiento:
+
+```bash
+http://localhost:4200
+```
 
 ## 9. Resultados esperados
+
 ## 10. Bibliografía
 Angular CLI Documentation. (2021). Angular. Recuperado de: https://angular.io/cli
 
