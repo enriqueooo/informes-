@@ -17,7 +17,7 @@ Además, necesitaré instalar **Node.js** y **npm**. Node.js es un entorno de ej
 El proyecto Angular que crearé tendrá una estructura básica con directorios como `src/`, donde estará el código fuente, y `node_modules/`, que contendrá las dependencias de terceros necesarias para el proyecto. Angular usa **TypeScript** para escribir el código, lo que me proporciona tipado estático y facilita la detección temprana de errores.
 
 ### Imagen relacionada con la teoría:
-![Pantalla final](C:\Users\sudac\Pictures\final.jpg)  
+![Pantalla final](linux/final.jpg)  
 *Figura 1-1. Estructura básica de un proyecto Angular.*
 
 ## 4. Conocimientos previos.
