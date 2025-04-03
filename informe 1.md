@@ -47,7 +47,6 @@ Para realizar esta práctica, necesito tener claros los siguientes temas:
 ## 7. Material de apoyo.
 
 - Documentación oficial de **Angular CLI**: [https://angular.io/cli](https://angular.io/cli)
-- Guía de la asignatura (si aplica).
 - Cheat Sheet de **Linux**: [https://github.com/cheat/cheat](https://github.com/cheat/cheat)
 - Documentación oficial de **Node.js**: [https://nodejs.org/en/docs/](https://nodejs.org/en/docs/)
 
