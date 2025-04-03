@@ -61,4 +61,11 @@ Lo primero que debo hacer es instalar Node.js y npm en mi sistema. Para ello, ab
 sudo apt update
 sudo apt install nodejs
 sudo apt install npm
+## 9. Resultados esperados
+## 10. Bibliografía
+Angular CLI Documentation. (2021). Angular. Recuperado de: https://angular.io/cli
+
+Node.js Documentation. (2021). Node.js. Recuperado de: https://nodejs.org/en/docs/
+
+
 
