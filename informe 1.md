@@ -95,6 +95,8 @@ Una vez que las dependencias estén instaladas, ejecutaré el servidor de desarr
 ```bash
 ng serve
 ```
+## 9. Resultados esperados
+
 **Paso 7: Acceder a la aplicación en el navegador**  
 Finalmente, abriré el navegador y escribiré la siguiente URL para ver mi aplicación en funcionamiento:
 
@@ -103,7 +105,6 @@ http://localhost:4200
 ```
 ![Pantalla final](linux/final.jpg)  
 
-## 9. Resultados esperados
 
 
 ## 10. Bibliografía
