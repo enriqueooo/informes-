@@ -62,18 +62,21 @@ sudo apt update
 sudo apt install nodejs
 sudo apt install npm
 ```
+![Pantalla final](linux/node.jpg)  
 **Paso 2: Instalar Angular CLI globalmente**  
 Después de instalar Node.js y npm, usaré npm para instalar Angular CLI globalmente en mi sistema:
 
 ```bash
 sudo npm install -g @angular/cli
 ```
+![Pantalla final](linux/cli.jpg)  
 **Paso 3: Crear un nuevo proyecto Angular**  
 Ahora, usaré el siguiente comando para crear un nuevo proyecto Angular. Se me preguntará si quiero configurar rutas y qué tipo de estilos quiero usar (CSS, SCSS, etc.).
 
 ```bash
 ng new nombre-del-proyecto
 ```
+![Pantalla final](linux/new.jpg)  
 **Paso 4: Navegar al directorio del proyecto**  
 Una vez que el proyecto se haya creado, entraré al directorio del proyecto con el siguiente comando:
 
@@ -98,8 +101,10 @@ Finalmente, abriré el navegador y escribiré la siguiente URL para ver mi aplic
 ```bash
 http://localhost:4200
 ```
+![Pantalla final](linux/final.jpg)  
 
 ## 9. Resultados esperados
+
 
 ## 10. Bibliografía
 Angular CLI Documentation. (2021). Angular. Recuperado de: https://angular.io/cli
