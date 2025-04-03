@@ -76,7 +76,7 @@ Ahora, usaré el siguiente comando para crear un nuevo proyecto Angular. Se me p
 ```bash
 ng new nombre-del-proyecto
 ```
-![Pantalla final](linux/new.jpg)  
+![Pantalla final](linux/new.webp)  
 **Paso 4: Navegar al directorio del proyecto**  
 Una vez que el proyecto se haya creado, entraré al directorio del proyecto con el siguiente comando:
 
