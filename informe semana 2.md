@@ -84,6 +84,7 @@ docker cp index1.html nginx1:/usr/share/nginx/html/index.html
 
 Si se desea, se puede repetir el proceso para el segundo contenedor `nginx2`, creando un archivo `index2.html` con información personal del estudiante.
 ```
+````
 ## Resultados esperados
 
 **Paso 7: Acceder a las aplicaciones en el navegador**  
@@ -92,9 +93,8 @@ Finalmente, abriré el navegador y escribiré las siguientes URLs para ver el co
 - Para el primer servidor (información institucional):  
   ```bash
   http://localhost:8089
-```
-```bash
--Para el segundo servidor (información personal):
-bash
-http://localhost:8090
-```
+  ```
+- Para el segundo servidor (información personal):
+  ```bash
+  http://localhost:8090
+  ```
