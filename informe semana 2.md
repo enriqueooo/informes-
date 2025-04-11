@@ -13,7 +13,7 @@ En esta práctica, aprenderé a desplegar dos servidores web utilizando Nginx en
 El objetivo de esta práctica es personalizar el contenido de cada servidor web. En el primer contenedor, se mostrará información institucional, mientras que en el segundo contenedor se incluirá información personal del estudiante.
 
 ### Imagen relacionada con la teoría:
-![Diagrama de contenedores Nginx](docker/imagen1.jpg)  
+![Diagrama de contenedores Nginx](https://github.com/enriqueooo/informes-/blob/main/docker/imagen1.png)  
 *Figura 1-1. Diagrama de contenedores Nginx.*
 
 ## 4. Conocimientos previos
