@@ -70,7 +70,7 @@ docker cp nginx1:/usr/share/nginx/html/index.html ./index1.html
 
 Usaré un editor de texto como `nano` o `vi` para editar el archivo `index1.html`, incluyendo información del instituto:
 
-![](docker/imagen2.jpg)  
+![](https://github.com/enriqueooo/informes-/blob/main/docker/imagen2.png)  
 *Figura 1-1. Edicion de html.*
 
 ```bash
@@ -101,5 +101,5 @@ Finalmente, abriré el navegador y escribiré las siguientes URLs para ver el co
   ```bash
   http://localhost:8090
   ```
-  ![](docker/imagen3.jpg)  
+  ![](https://github.com/enriqueooo/informes-/blob/main/docker/imagen3.png)  
 *Figura 1-1. Resultado final.*
