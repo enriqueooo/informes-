@@ -13,7 +13,7 @@ En esta práctica, aprenderé a desplegar dos servidores web utilizando Nginx en
 El objetivo de esta práctica es personalizar el contenido de cada servidor web. En el primer contenedor, se mostrará información institucional, mientras que en el segundo contenedor se incluirá información personal del estudiante.
 
 ### Imagen relacionada con la teoría:
-![Diagrama de contenedores Nginx](ngnix/nginx.jpg)  
+![Diagrama de contenedores Nginx](estibador/imagen1.jpg)  
 *Figura 1-1. Diagrama de contenedores Nginx.*
 
 ## 4. Conocimientos previos
@@ -70,6 +70,9 @@ docker cp nginx1:/usr/share/nginx/html/index.html ./index1.html
 
 Usaré un editor de texto como `nano` o `vi` para editar el archivo `index1.html`, incluyendo información del instituto:
 
+![Diagrama de contenedores Nginx](estibador/imagen2.jpg)  
+*Figura 1-1. Diagrama de contenedores Nginx.*
+
 ```bash
 nano index1.html
 ```
@@ -98,3 +101,5 @@ Finalmente, abriré el navegador y escribiré las siguientes URLs para ver el co
   ```bash
   http://localhost:8090
   ```
+  ![Diagrama de contenedores Nginx](estibador/imagen3.jpg)  
+*Figura 1-1. Diagrama de contenedores Nginx.*
