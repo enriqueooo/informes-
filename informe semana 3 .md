@@ -16,7 +16,7 @@ El objetivo es crear dos contenedores PostgreSQL: uno sin volumen (para comproba
 PostgreSQL es un sistema de gestión de bases de datos relacional muy popular que utilizaré para demostrar cómo manejar bases de datos en contenedores Docker. Al usar Docker para gestionar PostgreSQL, puedo crear entornos de bases de datos fácilmente, pero debo asegurarme de usar volúmenes para evitar la pérdida de datos al detener o eliminar contenedores.
 
 ### Imagen relacionada con la teoría:
-![Contenedor Docker con PostgreSQL](docker/8.jpeg)  
+![Contenedor Docker con PostgreSQL](docker/8.png)  
 *Figura 1-1. Volumenes.*
 
 ## 4. Conocimientos previos
