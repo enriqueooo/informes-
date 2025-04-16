@@ -16,7 +16,7 @@ El objetivo es crear dos contenedores PostgreSQL: uno sin volumen (para comproba
 PostgreSQL es un sistema de gestión de bases de datos relacional muy popular que utilizaré para demostrar cómo manejar bases de datos en contenedores Docker. Al usar Docker para gestionar PostgreSQL, puedo crear entornos de bases de datos fácilmente, pero debo asegurarme de usar volúmenes para evitar la pérdida de datos al detener o eliminar contenedores.
 
 ### Imagen relacionada con la teoría:
-![Contenedor Docker con PostgreSQL](docker/7.jpeg)  
+![Contenedor Docker con PostgreSQL](docker/8.jpeg)  
 *Figura 1-1. Volumenes.*
 
 ## 4. Conocimientos previos
@@ -153,10 +153,9 @@ docker run --name server_db2 -e POSTGRES_PASSWORD=admin -v pgdata:/var/lib/postg
 **Paso 6: Verificar la persistencia de los datos**  
 Me conecto de nuevo con DataGrip o TablePlus y verifico que la base de datos `test` y la tabla `customer` aún existen, y que el registro que inserté anteriormente sigue presente.
 
-```bash
+
 ![Contenedor Docker con PostgreSQL](docker/7.1.jpeg) 
 
-```
 ## 9. Resultados esperados
 
 - En la **Parte 1**, después de eliminar el contenedor sin volumen, la base de datos y la tabla deberían haberse perdido, lo que demuestra que los datos no se persisten sin volúmenes.
