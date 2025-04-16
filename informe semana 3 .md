@@ -153,8 +153,10 @@ docker run --name server_db2 -e POSTGRES_PASSWORD=admin -v pgdata:/var/lib/postg
 **Paso 6: Verificar la persistencia de los datos**  
 Me conecto de nuevo con DataGrip o TablePlus y verifico que la base de datos `test` y la tabla `customer` aún existen, y que el registro que inserté anteriormente sigue presente.
 
-![Contenedor Docker con PostgreSQL](docker/7.png) 
+```bash
+![Contenedor Docker con PostgreSQL](docker/7.1.jpeg) 
 
+```
 ## 9. Resultados esperados
 
 - En la **Parte 1**, después de eliminar el contenedor sin volumen, la base de datos y la tabla deberían haberse perdido, lo que demuestra que los datos no se persisten sin volúmenes.
