@@ -159,8 +159,6 @@ Me conecto de nuevo con DataGrip o TablePlus y verifico que la base de datos `te
 
 - En la **Parte 1**, después de eliminar el contenedor sin volumen, la base de datos y la tabla deberían haberse perdido, lo que demuestra que los datos no se persisten sin volúmenes.
 - En la **Parte 2**, después de eliminar y recrear el contenedor con volumen, los datos deberían haberse conservado, demostrando que el volumen asegura la persistencia de la base de datos y sus registros.
-- 
-![Contenedor Docker con PostgreSQL](docker/7.png) 
 ---
 
 ## 10. Bibliografía
